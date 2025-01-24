@@ -1,5 +1,7 @@
 def verify_card_number(card_number):
-    pass
+    sum_of_odd_numbers = 0
+    card_number_reversed = card_number[-1:-5:-1]
+    odd_digits = card_number_reversed[::2]
 
 
     
