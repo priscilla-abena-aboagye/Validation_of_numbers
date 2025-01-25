@@ -25,7 +25,7 @@ def verify_card_number(card_number):
 
     
 def main():
-    card_number = "837-133-64"
+    card_number = "4539 1488 0343 6467"
     card_translation = str.maketrans({"-": " "})
     card_translated = card_number.translate(card_translation)
 
